@@ -1,0 +1,796 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content,.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 1476px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: -807px;
+    top: 110px;
+    text-transform: uppercase;
+}
+
+.dropdown-content2 {
+    min-width: 1399px;
+    left: -807px;
+}
+
+.dropdown-content a,.dropdown-content2 a {
+    color: rgba(0,0,0,.5);
+    padding: 12px 0 12px 818px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: red;
+}
+
+.dropdown-content2 a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropdown-content2 {display: block;}
+
+
+.motsp{
+    width: 190px;
+    height: 250px;
+    margin-right: 10px; 
+    float: left;
+    margin-top: 15px;
+}
+
+.motsp img {
+    width: 190px;
+}
+
+.motsp a {
+    text-decoration: none;
+    font-family: segoe ui light;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.cucto {
+    width: 790px;
+}
+
+.motsp:nth-child(4n) {
+    margin-right: 0;
+}
+
+.fontpoppin {
+    font-family:Poppins-Regular;
+    font-weight: 300;
+}
+
+.fontbebas {
+    font-family: 'BebasNeue', arial, sans-serif;
+    font-weight:300;
+}
+
+.fontyan {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/*CSS TRANG MEN*/
+
+
+
+
+/*HET CSS TRANG MEN
+*/
+/*CSS TRANG CONTACT*/
+
+.bando {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    margin-right: 74px;
+    margin-left: 76px;
+}
+
+
+i.fa.fa-phone,i.fa.fa-envelope-o {
+    padding-top: 39px;
+}
+
+.cot.t2 {
+    margin-left: 177px;
+}
+
+.cot1 p {
+    font-size: 15px;
+    color: gray;
+    padding-top: 18px;
+    padding-left: 16px;
+}
+
+i.fa.fa-map-marker {
+    padding-top: 90px;
+    font-size: 18px;
+}
+
+i.fa.fa-map-marker {
+}
+
+.formlienhe .row {
+    font-family: 'Poppins', sans-serif;
+}
+
+input.form-control.nutgui {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+textarea.form-control.otext {
+    min-height: 199px;
+    border-radius: 0px;
+    padding-left: 26px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+input.diachiemail {
+    width: 100%;
+    height: 50px;
+    padding-left: 26px;
+    margin-top: 30px;
+}
+
+legend {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 57px;
+}
+
+.formlienhe .container {
+    border: 1px solid gray;
+    width: 88%;
+    margin-top: 157px;
+}
+
+.thongmotsp3about blockquote {
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+    border-left: 3px solid #808080ab;
+    box-sizing: border-box;
+    padding-left: 14px;
+}
+
+.formlienhe {
+    margin-top: -70px;
+}
+
+
+
+.anhcuoi {
+    padding-bottom: 13px;
+}
+
+/*HET CSS TRANG CONTACT*/
+
+/*CSS PHAN BODY*/
+h2 {
+    height: 120px;
+    text-align: center;
+    padding-top: 65px;
+    position: relative;
+    z-index: 2;
+}
+
+h2 {}
+
+#mtren img {
+    margin-top: 10px;
+}
+
+.anhcuoi img {
+    width: 88%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.slide2 {
+    padding-top: 30px;
+}
+
+.blackboy h3 a,.blackboy2 h3 a {
+    text-align: center;
+    display: block;
+    font-family: segoe ui light;
+    color: #000000e6;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+h3 a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+a.nav-link {
+    font-size: 17px;
+    padding: 0px 11px;
+    /* margin-top: 10px; */
+    /* color: #777; */
+    margin-top: 33px;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+}
+
+.blackboy,.blackboy2 {
+    padding-top: 20px;
+}
+
+.slide3 {
+    padding-top: 30px;
+}
+
+/*HET CSS PHAN BODY*/
+
+
+/*CSS TRANG ABOUT*/
+
+
+
+
+p.wow.fadeInUp {
+    transition: 0.1s;
+}
+
+.thongtin3about {
+    margin-bottom: 61px;
+}
+
+.thongtin2about img.img-fluid,.thongtin3about img.img-fluid {
+    height: 403px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.khoi2dong span.thongtin {font-size: 25px;text-transform: capitalize;line-height: 1.2;padding-bottom: 16px;display: block;font-weight: 600;transition: 0.1s;}
+
+
+blockquote {
+    border-left: 1px solid black;
+    padding-left: 19px;
+}
+
+.thongtin2about img.img-fluid:hover{
+    transform: scale(1.1);
+}
+
+.thongtin3about img.img-fluid:hover{
+    transform: scale(1.1);
+}
+
+.thongtin2about {
+    margin-top: 27px;
+}
+
+span.tieudephu {
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+}
+
+.tieudekhoimenu .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tieudekhoimenu.text-xs-center {
+    display: table;
+    margin: auto;
+    height: 240px;
+}
+
+
+.khoimenu {
+    background-image: url(images/39.jpg);
+    background-size: cover;
+    color: white;
+    height: 240px;
+    background-position: center;
+}
+
+.thongmotsp2about {
+    padding: 100px 0;
+}
+
+.thongmotsp2about span.thongmotsp, .thongmotsp3about span.thongmotsp {
+    font-size: 25px;
+    color: black;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.thongmotsp2about img.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+.thongmotsp3about img.img-fluid:hover {
+        transform: scale(1.1);
+}
+
+.thongmotsp2about img.img-fluid,.thongmotsp3about img.img-fluid {
+    height: 358px;
+    transition: 0.4s;
+}
+
+.thongmotsp2about p,.thongmotsp3about p {
+    padding-top: 20px;
+    color: gray;
+    font-size: 14px;
+}
+
+span.fontdancing {
+    font-size: 38px;
+    color: black;
+    font-weight: bold;
+}
+
+/*HET CSS TRANG ABOUT*/
+
+/*CSS FOOTER*/
+
+
+
+/*.ftfirst .container {
+    border-top: 1px solid black;
+    margin-top: 40px;
+}*/
+
+.col-xs-6.col-sm-12.cotbon {
+    color: #8e8e8e;
+}
+
+.cotbon h3.tagtest {
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 35px;
+    padding-bottom: 3px;
+    color: #584f4f;
+}
+
+.ftfirst a, .ftfirstk a {
+    color: #9a9292;
+    font-size: 11px;
+    line-height: normal;
+}
+
+.ftfirst a:hover {
+    color: red;
+}
+
+.ftfirstk a:hover {
+    color: red;
+}
+
+.ftfirst ul,.ftfirstk ul {margin-top: 35px;}
+
+.col-xs-12.col-sm-12.col-md-12.text-xs-center {
+}
+
+button.btn.btn-dark {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 65px;
+    border-radius: 0;
+    margin-bottom: 60px;
+    color: white;
+    background-color: black;
+    font-weight: 300;
+}
+
+.follow {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 35px;
+    border-top: 1px solid black;
+    margin-top: 30px;
+    padding-top: 35px;
+}
+
+.fttop {
+    font-weight: 400;
+}
+
+.ftbottom {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.anhlogo img.img-fluid {
+    float: right;
+    padding-top: 39px;
+}
+
+.cotf2p {
+    padding-top: 59px;
+}
+
+h3.tagft1{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 29px;
+    font-weight: 300;
+  }
+
+.cotf1 a,.cotf2 p,.cottrai .cotf2p a {
+    font-size: 16px;
+    color: #606060;
+    padding-top: 6px;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+}
+
+footer.ft {
+    background-color: black;
+ /*   width: 100%;
+    height: 250px;*/
+}
+
+.tagft {
+    color: white;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+i.fa.fa-tumblr.float-xs-right,i.fa.fa-youtube.float-xs-right,i.fa.fa-instagram.float-xs-right ,i.fa.fa-pinterest.float-xs-right,i.fa.fa-twitter.float-xs-right,i.fa.fa-facebook.float-xs-right {
+     width: 37px;
+     height: 37px;
+     line-height: 37px;
+     margin-top: 11px;
+}
+
+i.fa.fa-tumblr.float-xs-right {
+    background-color: green;
+}
+
+i.fa.fa-youtube.float-xs-right {
+    background-color: #b70c0c;
+}
+
+i.fa.fa-instagram.float-xs-right {
+    background-color: #b95656;
+}
+
+i.fa.fa-pinterest.float-xs-right {
+    background-color: #9e1919;
+}
+
+i.fa.fa-twitter.float-xs-right {
+    background-color: #66a9e2;
+}
+
+.col-xs-12.col-sm-6.col-md-2.socialmedia {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-right: 57px;
+}
+
+i.fa.fa-facebook.float-xs-right {
+    background-color: #1927d6;
+}
+
+
+/*HET CSS FOOTER*/
+
+
+/*CSS TRANG SHOEMEN*/
+
+
+
+.noidungct .gia {
+    font-size: 12px;
+}
+
+.noidungct .tensp {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgba(0,0,0,.5);
+}
+
+.noidungct .brand {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.noidungct .tagnew {
+    color: #6ec78b;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+.anhhh {
+    padding: 0 25px 0;
+    height: 300px;
+    margin: 80px 25px 0 25px;
+}
+
+.noidungct .anhhh:hover {
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+.tenbrand {
+    /* border-top: 1px solid gray; */
+    padding: 16px 0 16px 102px;
+    background-color: red;
+}
+
+.tenbrand a {
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 17px;
+    padding-right: 40px;
+}
+
+.tenbrand a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+/*HET CSS TRANG SHOEMEN*/
+
+/*CSS TRANG TEST2*/
+
+
+.trai img {
+    margin-top: 50px;
+}
+
+.trai a {
+    position: absolute;
+    left: 16px;
+}
+
+.anhnho img {
+    width: 58px;
+    height: 58px;
+    margin-left: 76px;
+    margin-right: -70px;
+    margin-top: 245px;
+    float: left;
+}
+
+.noidungchitiet a {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.noidungchitiet a.hienlen {
+    opacity: 1;
+    visibility: visible;
+}
+
+footer.ftfirst {
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
+
+footer.ftfirstk {
+    border-top: 1px solid black;
+    margin-top: 340px;
+}
+
+.haianh .nut1, .haianh .nut2 {
+    width: 100%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+.haianh .nut1:hover {
+    background: black;
+    color: white;
+}
+
+.haianh .nut2:hover {
+    background: black;
+    color: white;
+}
+
+a.btn.btn-outline-secondary.nut1 {}
+
+.haianh .col-sm-6 {
+    padding-top: 20px;
+    border-top: 1px solid black;
+    margin-top: 20px;
+    /* display: block; */
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.test img {
+}
+
+.phai .duoi {
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: -8px;
+    border-radius: 2px;
+    line-height: 1;
+    white-space: normal;
+    background-color: #47c178;
+}
+
+b, strong {
+    font-weight: 500;
+}
+
+
+
+
+
+p.pdetail {
+    padding-left: 23px;
+    margin-top: -96px;
+    padding-bottom: 160px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+.tren h2.detailtd {
+    font-size: 20px;
+    font-weight: 300;
+    padding-right: 135px;
+    padding-top: 0px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.phai p.linhtinh {
+    font-size: 10px;
+    padding-left: 24px;
+    margin-top: -55px;
+    font-family: arial, sans-serif;
+}
+
+.phai h2.detailm {
+    font-size: 37px;
+    padding-right: 185px;
+    padding-top: 21px;
+    letter-spacing: .5px;
+    line-height: 1;
+}
+
+.phai .tren {
+    background: gainsboro;
+    margin-top: 16px;
+}
+
+.trai h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    float: left;
+    margin-top: -56px;
+    /* margin-left: 594px; */
+    px; */
+}
+
+
+.noidungct {
+    margin-bottom: 50px;
+}
+
+.noidungct button.btn.btn-secondary {
+    font-size: 12px;
+    background: #999999;
+    color: white;
+    margin: 12px 0px 5px 4px;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.anhhh:hover button.btn.btn-secondary {
+    opacity: 1;
+    visibility: visible;
+}
+
+.thongtin2about .col-sm-5.push-sm-1, .thongtin3about .col-sm-5 {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 445px;
+    height: 403px;
+}
+
+/*HET CSS TRANG TEST2*/
+
+
+.btn-top {
+    background-image: url(../img/btn_top.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    outline: medium none;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    z-index: 9999;
+}
+
+
+img.anhnho {
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+./*trai img {
+    margin-top: 46px;
+}
+
+.trai a {
+    position: absolute;
+}
+
+.anhnho img {
+    width: 58px;
+    height: 58px;
+    margin-left: 76px;
+    margin-right: -70px;
+    margin-top: 257px;
+    float: left;
+}
+
+.noidungchitiet a {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.noidungchitiet a.hienlen {
+    opacity: 1;
+    visibility: visible;
+}*/
